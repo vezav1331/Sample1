@@ -1,0 +1,123 @@
+.fon_header {
+  background-color: #dba7ed;
+  border-color: #27ae60;
+  color: hsl(158, 14%, 32%);
+  /* font-size: 4rem; */
+  font-style: italic;
+}
+
+.desc {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: blue;
+}
+
+.fon {
+  background-image: url(../img/background1.png);
+  /* background-image: url(../img/background2.png); */
+  color: rgb(24, 3, 3);
+}
+
+.fon_instrument1 {
+  /* background-color: rgba(184, 231, 184, 0.588); */
+  border-color: rgba(142, 149, 149, 0.315);
+  border-width: 0.5;
+  border-style: solid;
+}
+.fon_instrument2 {
+  background-color: rgba(166, 195, 204, 0.588);
+}
+.fon_instrument3 {
+  background-color: rgba(217, 220, 167, 0.588);
+}
+
+.nofon {
+  background-color: aliceblue;
+}
+
+.footer_fon {
+  background-color: #dba7ed;
+  border-color: #27ae60;
+  color: aliceblue;
+  text-align: center;
+  /* padding: 1rem; */
+}
+
+.right-block img {
+  margin: 10px;
+  float: left;
+}
+
+.right-block p {
+  font-size: 1.2rem;
+
+  /* margin: 10px; */
+  margin: 0 auto;
+}
+
+.img_tools {
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgba(128, 128, 128, 0.416);
+}
+
+.img_tolls_max {
+  width: 100%;
+  height: 15rem;
+  margin: 8% 0;
+}
+
+.img_tolls_min {
+  width: 100%;
+  margin: 8% 0;
+}
+
+p {
+  text-align: left;
+}
+
+.block {
+  border: #bbbf95;
+  border-radius: 5%;
+  margin-left: 5%;
+  background-color: rgba(101, 223, 101, 0.588);
+}
+
+.prokrutka {
+  color: rgb(172, 170, 179);
+  /* border: 1px solid rgb(169, 166, 177); */
+  /* border-radius: 5px; */
+  height: 15rem;
+  width: 100%;
+  /* width: 80%; */
+  /* margin-left: 5%; */
+  overflow-y: scroll;
+}
+
+/* ЦВЕТ ИНДИКАТОРА (РАБОТАЕТ) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #07f041b4;
+  /* background-image: url(../img/right1.png); */
+  /* width: 10rem; */
+  /* height: 3rem; */
+}
+
+/* .carousel-indicators {
+  background-color: red;
+  color: #27ae60;
+  text-decoration-color: green;
+} */
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  fill: red;
+}
+
+
+
+.navbar-default {
+  background-color: #2ecc71;
+  border-color: #27ae60;
+} */
