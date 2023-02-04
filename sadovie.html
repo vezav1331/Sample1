@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Первый тест на Bootstrap</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid fon_header">
+      <div class="row">
+        <div class="class=col-2">
+          <img src="./img/kaktus5.png" alt="Кактус" width="90rem" />
+        </div>
+        <div class="class=col-10">
+          <!-- style="font-size: 2rem" -->
+          <h1 class="display-4 mt-1 pt-1" style="font-size: 2rem">
+            Всё для растений
+          </h1>
+          <!-- <h1>Всё для растений</h1> -->
+        </div>
+      </div>
+    </div>
+    <br />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Комнатные растения <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sadovie.html">Садовые растения</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Инструменты
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./room_tools.html"
+                >для комнатных растений</a
+              >
+              <a class="dropdown-item" href="./garden_tools.html">для сада</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <div class="container-fluid fon">
+      <!-- <h1 style="font-size: 4rem">Привет Мир!</h1> -->
+
+      <!-- <h1>Привет Мир!</h1> -->
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-1">
+        </div> -->
+          <!-- <div class="col-md-9 right-block"> -->
+          <div class="right-block container nofon">
+            <h2>Садовые растения</h2>
+            <img
+              src="./img/japan_flow.jpg"
+              class="img-thumbnail right-block"
+              alt="Комнатные растения"
+              width="350px"
+              height="300px"
+            />
+            <p>
+              <b>Садовые растения</b> — Без растений садов не бывает. Они
+              используются даже в аскетичных японских садах, хотя бы в качестве
+              «заимствованного пейзажа» за забором. В садах свободной, пейзажной
+              планировки растительной основой являются древесные виды. Крупные
+              деревья становятся каркасом, на котором крепится вся композиция, а
+              пышные кустарники заполняют объемы, подчеркивают пропорции и
+              разграничивают пространство. Цветочные растения в таких садах
+              играют роль бижутерии или макияжа — они лишь украшают сад,
+              дополняют его цветом, но композицию не формируют. В садах
+              симметричной, регулярной планировки растения нужны в основном для
+              создания живых геометрических форм, и красочного фона в партерах.
+              По этой причине среди древесных пород ценятся лишь те, что
+              пригодны для стрижки, а среди цветочных те, что сохраняют
+              декоративность или цветут в течение всего лета. В «букетных» садах
+              основу, естественно, составляют цветочные растения, как
+              многолетние, так и те, что высаживаются лишь на сезон. Древесные
+              растения используются очень умеренно — в основном для создания
+              высотных доминант и живых изгородей.
+            </p>
+            <p>
+              Особое место растения занимают в миксбордерах. Пышный садовый
+              миксбордер – этот яркий неувядающий букет – предел мечтаний любого
+              садовода. Эти цветники располагают вдоль стены здания, забора или
+              вдоль дорожки и, в зависимости от стиля, заполняют самыми
+              разнообразными растениями. Классические миксбордеры собирают из
+              травянистых многолетников и лишь дополняют их летними и двулетними
+              культурами. Такие композиции являются характерным элементом
+              ландшафтных садов, но в наше время они полюбились настолько, что
+              стали одними из самых распространенных видов цветников
+              современного дачного сада. Совершенно естественно, что стилистика
+              миксбордеров очень расширилась, и ныне их создают не только из
+              цветочных, но и из древесных растений. Особенно интересны такие
+              фантазийные интерпретации, как миксбордер-рокарий, теневой
+              миксбордер, или очень модные ныне монохромные композиции.
+            </p>
+            <p>
+              <b>Порядок высадки растений </b><br />
+              Размещая растения, многие не задумываются, что от порядка их
+              высадки зависит рисунок композиции, а в конечном счете — вся жизнь
+              сада. Позвольте предложить вам мою систему высадки растений,
+              довольно рациональную и проверенную на многочисленных ошибках, к
+              счастью, не моих.
+            </p>
+            <p>
+              В первую очередь сажают хвойные и лиственные деревья. Растения с
+              красивой кроной становятся доминантной основой композиции и
+              формируют «скелет» сада, а те, что обладают красивой листвой или
+              плотной кроной, создают кулисы. Это правило надо неукоснительно
+              соблюдать не только для создания сбалансированной картины, но и
+              потому, что эти растения высаживают навсегда.
+            </p>
+            <img
+              src="./img/sadov_flow.jpg"
+              alt="Садовые цветы"
+              width="270px"
+              class="img-thumbnail"
+              style="float: right"
+            />
+            <p>
+              Во вторую очередь высаживают кустарники. Разнообразие этих
+              растений столь велико, что после их посадки можно считать работу
+              по созданию сада полностью законченной. Для любителей цветочных
+              растений такое утверждение может показаться обидным, и зря, ведь
+              кустарники бывают как лиственными, так и хвойными, они не только
+              обладают листвой разной формы, фактуры и окраски, но и прекрасно
+              цветут. И все же главной работой, которую выполняют кустарники в
+              саду, становится формирование объемов — без них сад будет плоским.
+            </p>
+            <p>
+              Самые надежные — травянистые многолетники. Им нет числа, и для
+              каждого сада можно выбрать достаточный ассортимент прекрасных
+              растений как для цветения, так и для декорации красивыми листьями.
+              Для дизайна наиболее ценны виды и сорта с красивыми листьями —
+              хосты, бруннеры, медуницы, астильбоидесы, дармеры, тиареллы,
+              манжетки, папоротники и декоративные травы. Для садовода наиболее
+              желанны красивоцветущие многолетники — флоксы, пионы, дельфиниумы,
+              люпины, маки, всевозможные ромашки и колокольчики. Как ни
+              печально, но именно эти растения становятся «врагами» любой
+              композиции, поскольку после цветения их невзрачные листья сад не
+              украшают. Именно поэтому этих красавцев приходится маскировать
+              декоративнолиственными видами или прятать в миксбордеры. К счастью
+              для нас, среди многолетников очень много растений, совмещающих в
+              себе лучшие качества — красивое цветение и эффектную листву,
+              именно они чаще других заполняют наши сады и прикрывают прорехи в
+              композициях.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer class="footer_fon">ПОДВАЛ</footer> -->
+    <div class="container-fluid footer_fon">
+      <footer>
+        <span class="footer_fon font-italic" style="font-size: 2rem"
+          >Работаем без выходных</span
+        >
+        <img src="./img/png24_7.png" alt="24/7" width="50rem" />
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>

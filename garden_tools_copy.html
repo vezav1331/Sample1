@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Первый тест на Bootstrap</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid fon_header">
+      <div class="row">
+        <div class="class=col-md-2 col-sm-2 col-xs-2">
+          <img src="./img/kaktus5.png" alt="Кактус" width="70rem" />
+        </div>
+        <div class="class=col-md-9 col-sm-9 col-xs-9">
+          <!-- <h1 style="font-size: 4rem">Работаем без выходных</h1> -->
+          <span class="font-italic" style="font-size: 3rem"
+            >Всё для растений
+          </span>
+          <!-- <img src="./img/png24_7.png" alt="24/7" width="50rem" /> -->
+        </div>
+      </div>
+    </div>
+    <br />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"
+              >Комнатные растения <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sadovie.html">Садовые растения</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Инструменты
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./room_tools.html"
+                >для комнатных растений</a
+              >
+              <a class="dropdown-item" href="./garden_tools.html">для сада</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <div class="container-fluid fon">
+      <!-- <h1 style="font-size: 4rem">Привет Мир!</h1> -->
+
+      <!-- <h1>Привет Мир!</h1> -->
+      <div class="container">
+        <div class="row">
+          <h3>Инструменты для сада</h3>
+          <!--  начало -->
+          <div class="col-md-4 col-sm1 col-1">
+            <p>Грабли</p>
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="prokrutka">
+                  <!-- Колонка левая -->
+                  <img
+                    onclick="SetImg(this.src)"
+                    src="./img/Grabli1.jpg"
+                    alt="Грабли"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg(this.src)"
+                    src="./img/Grabli2.jpg"
+                    alt="Грабли"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg(this.src)"
+                    src="./img/Grabli3.jpg"
+                    alt="Грабли"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg(this.src)"
+                    src="./img/Grabli4.jpg"
+                    alt="Грабли"
+                    class="img_tolls_min"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-8 col-xs-8">
+                <!-- Колонка правая -->
+                <img
+                  id="preview"
+                  src="./img/Grabli1.jpg"
+                  alt="Грабли"
+                  class="img_tolls_max"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- конец -->
+          <!-- начало -->
+          <div class="col-md-4">
+            <p>Лопата штыковая</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="prokrutka">
+                  <!-- Колонка левая -->
+                  <img
+                    onclick="SetImg1(this.src)"
+                    src="./img/Lopata1.jpg"
+                    alt="Лопата"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg1(this.src)"
+                    src="./img/Lopata2.jpg"
+                    alt="Лопата"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg1(this.src)"
+                    src="./img/Lopata3.jpg"
+                    alt="Лопата"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg1(this.src)"
+                    src="./img/Lopata4.jpg"
+                    alt="Лопата"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg1(this.src)"
+                    src="./img/Lopata5.jpg"
+                    alt="Лопата"
+                    class="img_tolls_max"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <!-- Колонка правая -->
+                <img
+                  id="preview1"
+                  src="./img/Lopata1.jpg"
+                  alt="Лопата"
+                  class="img_tolls_max"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- конец -->
+          <!-- начало -->
+          <div class="col-md-4">
+            <p>Ведро хозяйственное</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="prokrutka">
+                  <!-- Колонка левая -->
+                  <img
+                    onclick="SetImg2(this.src)"
+                    src="./img/Vedro1.jpg"
+                    alt="Ведро"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg2(this.src)"
+                    src="./img/Vedro2.jpg"
+                    alt="Ведро"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg2(this.src)"
+                    src="./img/Vedro3.jpg"
+                    alt="Ведро"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg2(this.src)"
+                    src="./img/Vedro4.jpg"
+                    alt="Ведро"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg2(this.src)"
+                    src="./img/Vedro5.jpg"
+                    alt="Ведро"
+                    class="img_tolls_min"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <!-- Колонка правая -->
+                <img
+                  id="preview2"
+                  src="./img/Vedro1.jpg"
+                  alt="Ведро"
+                  class="img_tolls_max"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- конец -->
+        </div>
+        <div class="row">
+          <!-- начало -->
+          <div class="col-md-4">
+            <p>Ножницы для сада</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="prokrutka">
+                  <!-- Колонка левая -->
+                  <img
+                    onclick="SetImg3(this.src)"
+                    src="./img/Scissors1.jpg"
+                    alt="Ножницы"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg3(this.src)"
+                    src="./img/Scissors2.jpg"
+                    alt="Ножницы"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg3(this.src)"
+                    src="./img/Scissors3.jpg"
+                    alt="Ножницы"
+                    class="img_tolls_min"
+                  />
+                  <img
+                    onclick="SetImg3(this.src)"
+                    src="./img/Scissors4.jpg"
+                    alt="Ножницы"
+                    class="img_tolls_min"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <!-- Колонка правая -->
+                <img
+                  id="preview3"
+                  src="./img/Scissors1.jpg"
+                  alt="Ножницы"
+                  class="img_tolls_max"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- конец -->
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- <footer class="footer_fon">ПОДВАЛ</footer> -->
+    <div class="container-fluid footer_fon">
+      <footer>
+        <span class="footer_fon font-italic" style="font-size: 2rem"
+          >Работаем без выходных</span
+        >
+        <img src="./img/png24_7.png" alt="24/7" width="50rem" />
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function SetImg(selected_url) {
+        var item = document.getElementById("preview");
+        item.src = selected_url;
+      }
+      function SetImg1(selected_url) {
+        var item = document.getElementById("preview1");
+        item.src = selected_url;
+      }
+      function SetImg2(selected_url) {
+        var item = document.getElementById("preview2");
+        item.src = selected_url;
+      }
+
+      function SetImg3(selected_url) {
+        var item = document.getElementById("preview3");
+        item.src = selected_url;
+      }
+    </script>
+  </body>
+</html>
